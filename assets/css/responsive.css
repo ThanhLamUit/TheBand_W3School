@@ -1,0 +1,107 @@
+/* Pc */
+@media (min-width: 1024px) {
+
+}
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    .btn {
+        padding: 14px 16px;
+    }
+
+    #Nav .SubNav a {
+        padding: 5px 16px;
+    }
+
+    .location {
+        line-height: 2;
+    } 
+    .contact-body .form-control {
+        padding: 14px;
+    }
+
+    .social-media-list {
+        font-size: 48px !important;
+    }
+
+    #Footer .copy-right {
+        font-size: 26px;
+        display: inline-block;
+        padding: 8px;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .modal-content {
+        position: absolute;
+        top: 10%;
+        width: 600px;
+    }
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .s-full-width,
+    .s-column-full {
+        width: 100%;
+    }
+
+    .s-mb-8 {
+        margin-bottom: 8px;
+    }
+    #Header {
+        overflow: hidden;
+    }
+
+    #Header .search-btn {
+        display: none;
+    }
+
+    #Header .mobile-menu-btn {
+        display: block;
+    }
+
+    #Nav {
+        display: block;
+    }
+
+    #Nav > li {
+        display: block;
+    }
+
+    #Nav li a {
+        padding: 1px 24px;
+    }
+
+    #Nav > li:first-child {
+        display: inline-block;
+    }
+
+    #Nav .SubNav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #Nav .SubNav a {
+        color: #fff;
+        padding: 5px 34px;
+    }
+
+    #Content .photo {
+        width: 60%;
+    }
+
+    .location {
+        margin-bottom: 32px;
+    }
+    /* Modal */
+    .modal {
+        
+    }
+
+    .modal-content {
+        position: absolute;
+        top: 10%;
+        width: 355px;
+    }
+}
